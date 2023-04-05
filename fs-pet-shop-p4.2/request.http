@@ -1,0 +1,23 @@
+###
+GET http://localhost:3000/pets
+
+###
+GET http://localhost:3000/pets/1
+
+###
+POST http://localhost:3000/pets
+Content-Type: application/application/json
+
+{
+    "age": 110,
+    "kind": "villianous dragon",
+    "name": "Tiny"
+}
+
+### 
+PATCH http://localhost:3000/pets
+Content-Type: application/json
+
+{
+    "kind": "emu"
+}
